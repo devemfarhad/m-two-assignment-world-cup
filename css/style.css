@@ -92,7 +92,7 @@ ul {
 .plr {
   transition: transform 0.2s ease-in;
 }
-
+/* All buttons */
 .btn-1 {
   background: #dd0000;
   border-radius: 5px;
@@ -111,6 +111,12 @@ ul {
   background: #ffffff;
   color: #dd0000;
   cursor: pointer;
+}
+.btn-1:hover {
+  transform: scale(1.05);
+}
+.btn-1 {
+  transition: transform 0.2s ease-in-out;
 }
 .btn-2 {
   background: #ffffff;
@@ -364,7 +370,7 @@ ul {
 .col-sm-12 {
   width: 100%;
 }
-
+/* Small Screen */
 @media (min-width: 768px) {
   .container {
     width: 735px;
@@ -453,6 +459,7 @@ ul {
     display: none;
   }
 }
+/* Mediam to Big Screen */
 @media (min-width: 992px) {
   .container {
     width: 1321px;
